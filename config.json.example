@@ -1,0 +1,18 @@
+{
+  "proxies": [
+    {
+      "type": "pgsql",
+      "sourceName": "LARAVEL",
+      "targetName": "PGSQL",
+      "listenAddr": "127.0.0.1:4046",
+      "targetAddr": "127.0.0.1:5432"
+    },
+    {
+      "type": "pgsql",
+      "sourceName": "NODEJS",
+      "targetName": "PGSQL",
+      "listenAddr": "127.0.0.1:4041",
+      "targetAddr": "127.0.0.1:5432"
+    }
+  ]
+}
